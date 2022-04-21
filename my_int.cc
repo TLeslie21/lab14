@@ -84,7 +84,7 @@ private:
 // Calls:    sqrt
 // Uses:     cmath 
 //*********************************************************
-bool is_prime(const my_int& num);
+bool is_prime(my_int& num);
 
 
 int main()
@@ -201,7 +201,7 @@ void my_int:: input(istream& inp)
 // Calls:    sqrt
 // Uses:     cmath 
 //*********************************************************
-bool is_prime(const my_int& num)
+bool is_prime(my_int& num)
 {
   double limit;
   int n;      //divisor
@@ -220,5 +220,3 @@ bool is_prime(const my_int& num)
    }
    return prime;
 }
- 
-
